@@ -1,0 +1,107 @@
+.navlink {
+  background-image: url("love-arrow.png");
+  margin: 0;
+  padding: 5px 0 5px 25px;
+  list-style: none;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 25px;
+}
+
+#contact {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #888;
+}
+
+#contact input[type="submit"] {
+  background-color: #9b4caf;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #888;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #e2bce0;
+}
+
+body {
+  background-color: #bde0f3; /* set blue as the background color */
+  color: #333; /* set a dark text color to contrast with the background */
+}
+
+h1 {
+  font-family: "Molle", cursive;
+  color: #c88ee7; /* set purple as the default color for h1 */
+  font-size: 58px;
+  text-align: center;
+}
+
+h1:hover {
+  color: #ffc8dd; /* set pink as the hover color for h1 */
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #cdb4db; /* set purple as the color for headings */
+}
+img {
+  border-style: dotted;
+  border-color: rgb(231, 187, 187) #d4d8fa;
+}
+
+a {
+  color: #ffc8dd; /* set pink as the color for links */
+}
+
+ul,
+ol {
+  color: #333; /* set a dark text color for lists */
+}
+
+section {
+  background-color: #fff; /* set white as the background color for sections */
+  padding: 20px; /* add some padding to sections */
+  margin-bottom: 30px; /* add some margin between the sections */
+  border-radius: 10px; /* add some border radius to sections */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); /* add a shadow effect to sections */
+}
+
+nav ul li a {
+  color: #333; /* set a dark text color for links in the navigation bar */
+}
+
+nav ul li a:hover {
+  color: #ffc8dd; /* set pink as the hover color for links in the navigation menu */
+}

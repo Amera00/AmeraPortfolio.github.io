@@ -1,0 +1,51 @@
+li {
+  background-image: url("love-hand-drawn-heart-symbol-outline.png");
+  margin: 0;
+  padding: 5px 0 5px 25px;
+  list-style: none;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 15px;
+}
+
+body {
+  background-color: rgb(122, 231, 213);
+}
+
+h1 {
+  font-family: cursive;
+  color: #322534; /* set dark purple as my default color for h1 */
+  font-size: 58px;
+  text-shadow: rgb(250, 250, 249) 1px 0 10px;
+  text-align: center;
+}
+
+a {
+  color: purple;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th {
+  background-color: #649770;
+  color: white;
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #62a267;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #8cc978;
+}
+
+tr:nth-child(odd) {
+  background-color: #91e47a;
+}
